@@ -22,11 +22,12 @@ public class MinAlder {
 
     }
 
-    public static void gammelNok(MinAlder person) {
-        if (person.alder >= 16) {
-            System.out.println("Ja du rigtig nok prøvet at være til eksamen før");
+    public String gammelNok() {
+        this.alder = alder;
+        if (alder >= 16) {
+            return "Ja du rigtig nok prøvet at være til eksamen før";
         } else {
-            System.out.println("Du er vist ikke så gammel at du har været til eksamen! MEN GLÆD DIG;)");
+            return "Du er vist ikke så gammel at du har været til eksamen! MEN GLÆD DIG;)";
 
         }
     }
