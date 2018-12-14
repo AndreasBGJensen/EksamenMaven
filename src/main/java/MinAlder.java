@@ -16,7 +16,7 @@ public class MinAlder {
     }
 
     public String toString() {
-        String verb = "Mit navn er: " + navn + ". Jeg er: " + alder + " år og jeg elsker at være til eksamen";
+        String verb = "Jeg er heldigvis gammel nok og jeg elsker at være til eksamen";
 
         return verb;
 
